@@ -61,21 +61,21 @@ function Painel() {
   )
 
   return (
-    <div className="p-8 bg-gray-100 min-h-screen">
-      <div className="flex justify-between items-center mb-6">
-        <h2 className="text-2xl font-bold">Painel de Registros</h2>
+    <div className=" p-8 bg-gray-100 min-h-screen">
+      <header className=" flex justify-between items-center mb-6">
+        <h2 className="text-2xl font-mono font-bold">Painel de Registros</h2>
         <button
           onClick={handleLogout}
-          className="bg-red-500 text-white px-4 py-2 rounded"
+          className="bg-red-500 text-white px-4 py-2 rounded transition transform hover:scale-105 active:scale-95"
         >
           Sair
         </button>
-      </div>
+      </header>
 
       <div className="flex justify-between items-center mb-4">
         <button
           onClick={handleAdd}
-          className="bg-green-600 text-white px-4 py-2 rounded"
+          className="bg-green-600 text-white px-4 py-2 rounded transition transform hover:scale-105 active:scale-95"
         >
           + Adicionar Registro
         </button>
@@ -109,13 +109,13 @@ function Painel() {
               <div className="space-x-2">
                 <button
                   onClick={() => handleEdit(r.id)}
-                  className="bg-blue-500 text-white px-3 py-1 rounded"
+                  className="bg-blue-500 text-white px-3 py-1 rounded transition transform hover:scale-105 active:scale-95"
                 >
                   Editar
                 </button>
                 <button
                   onClick={() => handleDelete(r.id)}
-                  className="bg-red-500 text-white px-3 py-1 rounded"
+                  className="bg-red-500 text-white px-3 py-1 rounded transition transform hover:scale-105 active:scale-95"
                 >
                   Deletar
                 </button>

@@ -51,7 +51,7 @@ function Login(){
                     className="rounded-sm border-b-black bg-cyan-900 text-blue-100"
                     />
                 </div>
-                <button type="submit" className="cursor-pointer font-mono text-sm mt-2  p-1 pr-6 pl-6 rounded-md bg-blue-500 text-amber-50 block mx-auto">
+                <button type="submit" className="cursor-pointer font-mono text-sm mt-2  p-1 pr-6 pl-6 rounded-md bg-blue-500 text-amber-50 block mx-auto transition transform hover:scale-105 active:scale-95">
                     Entrar
                 </button>
                 {error && <p style={{ color: "red" }}>{error}</p>}
