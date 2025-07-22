@@ -27,7 +27,7 @@ Um sistema simples de CRM feito com **Django (DRF)** no backend e **React** no f
 
 ### Frontend (Vercel)
 
-> Link: https://painel-registro.vercel.app/login
+> Link: https://painel-registro.vercel.app
 
 ### Usuários de teste
 
